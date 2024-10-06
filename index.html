@@ -1,46 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfolio</title>
+    <title>Portfólio - Gean Augusto</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <h1>Meu Portfólio</h1>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#sobre" class="ativo">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <a href="#educacao">
+                    <i class="fa-solid fa-layer-group"></i>
+                </a>
+                <a href="#projetos">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </a>
+                <a href="#contato">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
 
-    <div class="main">
-        <div class="left">
-            <div class="foto">
-                <img src="https://logodix.com/logo/1070634.png" alt="">
-            </div>
-            <h2>Gean Augusto</h2>
-        </div>
-        <div class="right">
-            <div class="texto">
-                <h3>Sobre Mim</h3>
-                <p>Meu nome é Gean Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum qui quia, inventore illum expedita ullam harum? Veniam facere temporibus excepturi aliquid, ratione dicta soluta repellat enim dolore natus? Laborum.</p>
-            </div>
-            <div class="texto">
-                <h3>Tecnologias</h3>
-                <ul>
-                    <li>▶ HTML</li>
-                    <li>▶ CSS</li>
-                    <li>▶ Python</li>
-                    <li>▶ MySQL</li>
-                </ul>
-            </div>
-            <div class="texto">
-                <h3>Contato</h3>
-                <div class="logos">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt="">
-                    <img src="https://pngimg.com/uploads/github/github_PNG80.png" alt="">
+            </nav>
+        </header>
+        <main>
+            <section id="sobre">
+                <h1>Sobre Mim</h1>
+                <div>
+                    <div class="info">
+                        <p id="ola">Olá, sou</p>
+                        <h1>GEAN AUGUSTO</h1>
+                        <h4>Sou um Desenvolvedor.</h4>
+                        <p>Com experiência em HTML, CSS, Python e My SQL. Aqui você pode me conhecer um pouco. Sinta-se
+                            à
+                            vontade para explorar meu portfólio!</p>
+                        <div class="midias">
+                            <a href="https://www.instagram.com/is.gean/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/Geanoff" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="foto">
+                        <img src="Imagens/user.png" alt="Minha Foto">
+                    </div>
                 </div>
-            </div>
-        </div>
+            </section>
+
+            <section id="educacao">
+                <h1>Educação</h1>
+                <div>
+                    <div class="card">
+                        <img src="Imagens/logo_wbs.jpg" alt="Logo Escola">
+                        <div>
+                            <h3>E.E Waldemir Barros da Silva</h3>
+                            <h6>2018 - 2020</h6>
+                            <p>No meu Ensino Médio, tive meu primeiro contato com a programação foi onde eu aprendi o
+                                básico sobre lógica de
+                                programação.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Imagens/logo_ufms.png" alt="Logo UFMS">
+                        <div>
+                            <h3>Universidade Federal do Mato Grosso do Sul</h3>
+                            <h6>2023 - 2025</h6>
+                            <p>Atualmente estou cursando Tecnologia da Informação na UFMS.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="Imagens/logo_senac.png" alt="Logo Senac">
+                        <div>
+                            <h3>Senac Hub Academy</h3>
+                            <h6>2024 - 2025</h6>
+                            <p>Cursando Técnico em Desenvolvimento de Sistemas</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projetos">
+                <h1>Projetos</h1>
+                <p>Em desenvolvimento...</p>
+            </section>
+
+            <section id="contato">
+                <h1>Contato</h1>
+                <p>Também em desenvolvimento...</p>
+            </section>
+        </main>
     </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
