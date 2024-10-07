@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Gean Augusto</title>
+    <title>Meu Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -15,46 +15,36 @@
     <div class="container">
         <header>
             <nav>
-                <a href="#sobre" class="ativo">
-                    <i class="fa-solid fa-house"></i>
-                </a>
-                <a href="#educacao">
-                    <i class="fa-solid fa-layer-group"></i>
-                </a>
-                <a href="#projetos">
-                    <i class="fa-solid fa-laptop-code"></i>
-                </a>
-                <a href="#contato">
-                    <i class="fa-solid fa-phone"></i>
-                </a>
-
+                <a title="Sobre Mim" href="#sobre" class="ativo"><i class="fa-solid fa-house"></i></a>
+                <a title="Educação" href="#educacao"><i class="fa-solid fa-layer-group"></i></a>
+                <a title="Projetos" href="#projetos"><i class="fa-solid fa-laptop-code"></i></a>
+                <a title="Contato" href="#contato"><i class="fa-solid fa-phone"></i></a>
             </nav>
         </header>
         <main>
             <section id="sobre">
-                <h1>Sobre Mim</h1>
+                <h1 class="tit-secao">Sobre Mim</h1>
                 <div>
-                    <div class="info">
-                        <p id="ola">Olá, sou</p>
-                        <h1>GEAN AUGUSTO</h1>
-                        <h4>Sou um Desenvolvedor.</h4>
+                    <div id="sobre-mim">
+                        <h3>Opa! Meu nome é</h3>
+                        <h1>Gean Augusto</h1>
+                        <h4>Sou um Desenvolvedor</h4>
                         <p>Com experiência em HTML, CSS, Python e My SQL. Aqui você pode me conhecer um pouco. Sinta-se
-                            à
-                            vontade para explorar meu portfólio!</p>
+                            à vontade para explorar meu portfólio!</p>
                         <div class="midias">
-                            <a href="https://www.instagram.com/is.gean/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/is.gean/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
                             <a href="https://github.com/Geanoff" target="_blank"><i class="fa-brands fa-github"></i></a>
-                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="foto">
-                        <img src="Imagens/user.png" alt="Minha Foto">
+                    <div id="foto">
+                        <img src="imagens/user.png" alt="Foto de Perfil">
                     </div>
                 </div>
             </section>
-
             <section id="educacao">
-                <h1>Educação</h1>
+                <h1 class="tit-secao">Educação</h1>
                 <div>
                     <div class="card">
                         <img src="Imagens/logo_wbs.jpg" alt="Logo Escola">
@@ -84,20 +74,17 @@
                     </div>
                 </div>
             </section>
-
             <section id="projetos">
-                <h1>Projetos</h1>
-                <p>Em desenvolvimento...</p>
+                <h1 class="tit-secao">Projetos</h1>
+                <h4>Em desenvolvimento...</h4>
             </section>
-
             <section id="contato">
-                <h1>Contato</h1>
-                <p>Também em desenvolvimento...</p>
+                <h1 class="tit-secao">Contato</h1>
+                <h4>Também em desenvolvimento...</h4>
             </section>
         </main>
     </div>
     <script src="script.js"></script>
-
 </body>
 
 </html>
