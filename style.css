@@ -163,7 +163,13 @@ section .tit-secao {
     color: #10cac1;
 }
 
+#sobre #foto {
+   max-width: 200px;
+   max-height: 200px;
+}
+
 #sobre #foto img {
+    width: 100%;
     border-radius: 50%;
     opacity: .5;
     animation: foto 2s infinite alternate-reverse;
